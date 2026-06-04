@@ -1,7 +1,11 @@
+import MessagesList from "../components/messages-list";
+
 function HomePage() {
   return (
     <>
-      <h1>Hello world</h1>
+      <h1>Messages List</h1>
+
+      <MessagesList />
     </>
   );
 }
